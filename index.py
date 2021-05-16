@@ -1,4 +1,3 @@
-"""Perform a Google search using Selenium and a headless Chrome browser."""
 import subprocess
 from pathlib import Path
 
@@ -9,8 +8,6 @@ import time
 
 
 def book_zion_shuttle():
-    """Perform a Google search using Selenium and a headless Chrome browser."""
-
     options = selenium.webdriver.chrome.options.Options()
     options.add_argument("start-maximized")
 
